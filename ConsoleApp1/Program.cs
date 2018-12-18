@@ -25,7 +25,16 @@ namespace ConsoleApp1
 			Console.WriteLine("La somma è{0}", somma);
 
 
-			Console.ReadLine();
+			if (somma > 100)
+			{
+				Console.WriteLine("il numero è maggiore di 100");
+
+			}
+			else
+			{
+				Console.WriteLine("il numero è minore di 100");
+			}
+				Console.ReadLine();
 
 
 		}
